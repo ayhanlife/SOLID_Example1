@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SOLID1.DataAccess\SOLID1.DataAccess.csproj" />
+    <ProjectReference Include="..\SOLID1.Entity\SOLID1.Entity.csproj" />
+  </ItemGroup>
+
+</Project>
